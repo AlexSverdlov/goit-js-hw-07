@@ -1,0 +1,28 @@
+h1 {
+  color: tomato;
+}
+
+/* Задание № 3 */
+#gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+img {
+  height: 300px;
+}
+/* Задание № 6 */
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
