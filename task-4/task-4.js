@@ -1,3 +1,4 @@
+// Получаем ссылки на наши объекты
 const buttDecrRef = document.querySelector("button[data-action=decrement]");
 const buttIncrRef = document.querySelector("button[data-action=increment]");
 const spanInputRef = document.querySelector("#value");
@@ -15,7 +16,7 @@ function handleClickIncr() {
 }
  
 let counterValue = 0
-
+// Добавляем слушатель 
 buttDecrRef.addEventListener('click', handleClickDecr)
 buttIncrRef.addEventListener('click', handleClickIncr)
 

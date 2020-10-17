@@ -1,3 +1,4 @@
+// Получаем ссылки на наши объекты
 const ulRef = document.querySelector("#gallery");
 
 const images = [
@@ -18,5 +19,6 @@ const images = [
   },
 ];
 
+// Получаем строку для функции insertAdjacentHTML и вставляем объекты в ul
 const strimg = images.reduce((acc,image)=>acc+`<li><img src= ${image.url} alt=${image.alt}></li>`,'')
 ulRef.insertAdjacentHTML('beforeend', strimg)
